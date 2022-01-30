@@ -1,1 +1,18 @@
-
+#include<studio.h>
+int main()
+{
+int n,m,i,sum;
+printf("Sum of all natural numbers from n to m\n");
+Printf("Enter value for n:");
+scanf("%d",&n);
+Printf("Enter value for m:");
+scanf("%d",&m);
+i=n;
+for(i=n;i<=m;i++)
+{
+printf("\n%d",i);
+sum=sum+i;
+}
+printf("\nSum of all natural numbers=%d",sum);
+return 0;
+}
